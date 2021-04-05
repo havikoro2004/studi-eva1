@@ -1,0 +1,31 @@
+body , html , .wrapper {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 15vh 1fr 15vh;
+  justify-content: center;
+  align-content: ;
+  grid-template-areas: 
+  "header"
+  "main"
+  "footer"
+  ;
+}
+header {
+  background-color: aquamarine;
+  grid-area: header;
+}
+
+main {
+  background-color: bisque;
+  grid-area: main;
+}
+footer {
+  background-color: rgb(209, 137, 49);
+  grid-area: footer;
+}
