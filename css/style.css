@@ -25,6 +25,12 @@ main {
   background-color: bisque;
   grid-area: main;
 }
+section {
+  background-color: rgba(0, 0, 255, 0.568);
+}
+aside {
+  background-color: rgb(241, 99, 222);
+}
 footer {
   background-color: rgb(209, 137, 49);
   grid-area: footer;
