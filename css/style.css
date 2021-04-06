@@ -5,10 +5,13 @@ body , html , .wrapper {
   height: auto;
   width: 100%;
 }
+h1 {
+  text-align: center;
+}
 .wrapper {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 18vh 1fr 3fr 10vh;
+  grid-template-rows: 18vh auto 1fr 10vh;
   grid-template-areas: 
   "header"
   "slider"
@@ -40,6 +43,7 @@ body , html , .wrapper {
 .slider {
   grid-area: slider;
   margin-top: 0.5rem;
+
 }
 main {
   background-color: bisque;
@@ -47,7 +51,6 @@ main {
 }
 section {
   background-color: rgba(0, 0, 255, 0.568);
-  z-index: 1;
 }
 aside {
   background-color: rgb(241, 99, 222);
@@ -56,19 +59,33 @@ footer {
   background-color: rgb(209, 137, 49);
   grid-area: footer;
 }
-
-
-.socials {
+.socials-icons {
   color: black;
 }
-
-@media screen and (min-width:576px) {
-  .wrapper{
-    grid-template-rows: 13vh 1fr 3fr 10vh;
-  } 
+.bi-facebook:hover {
+  color:#3b5998 ;
 }
+.bi-twitter:hover {
+  color:#00acee ;
+}
+.bi-youtube:hover {
+  color:#c4302b ;
+}
+.bi-instagram:hover {
+  color:#8f0606 ;
+}
+/* @media screen ≥576px   */
+@media screen and (min-width:576px) {
+    .wrapper{
+    grid-template-rows: 18vh auto 3fr 10vh
+  } 
 
+}
+/* @media screen ≥768px   */
 @media screen and (min-width:768px) {
+    .wrapper{
+    grid-template-rows: 13vh auto 3fr 10vh;
+  } 
   .blog-header{
     display: flex;
     flex-direction: row;
