@@ -8,9 +8,7 @@ body , html , .wrapper {
 .wrapper {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 15vh 1fr 3fr 10vh;
-  justify-content: center;
-  align-content: ;
+  grid-template-rows: 18vh 1fr 3fr 10vh;
   grid-template-areas: 
   "header"
   "slider"
@@ -19,7 +17,7 @@ body , html , .wrapper {
   ;
 }
 .blog-header{
-  height: 60%;
+  height: 55%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -28,14 +26,20 @@ body , html , .wrapper {
 .blog-header ul {
   display: none;
 }
-.don {
-  display: block;
+.logo {
+  width: 50px;
+  height: 50px;
 }
-.don-2 {
+.don-btn-m {
+  display: block;
+  margin-right: 2.3rem;
+}
+.don-btn {
   display: none;
 }
 .slider {
   grid-area: slider;
+  margin-top: 0.5rem;
 }
 main {
   background-color: bisque;
@@ -59,11 +63,9 @@ footer {
 }
 
 @media screen and (min-width:576px) {
-
-
-/*  a voir */
-  
-  
+  .wrapper{
+    grid-template-rows: 13vh 1fr 3fr 10vh;
+  } 
 }
 
 @media screen and (min-width:768px) {
@@ -71,12 +73,11 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
   }
-    .don {
+    .don-btn-m {
     display: none;
   }
-  .don-2{
+  .don-btn{
     display: block;
   }
     .blog-header ul {
