@@ -1,5 +1,6 @@
 /* @media screen <576px   */
 body , html , .wrapper {
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
   height: auto;
@@ -53,7 +54,7 @@ h1{
 }
 .don-btn-m {
   display: block;
-  margin-right: 0.3rem;
+  margin-right: 0.5rem;
 }
 .don-btn {
   display: none;
