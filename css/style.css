@@ -8,10 +8,8 @@ body , html , .wrapper {
 h1 , h2 {
   margin: 2rem 0 2rem 0;
 }
-.carousel-caption{
-  background-color: hsl(0, 0%, 0% ,0.8);
-  border-radius: solid white;
-  border-radius: 0.5rem;
+h1{
+  text-align: center;
 }
 .wrapper {
   display: grid;
@@ -33,6 +31,21 @@ h1 , h2 {
 }
 .blog-header ul {
   display: none;
+}
+.socials-icons {
+  color: black;
+}
+.bi-facebook:hover {
+  color:#3b5998 ;
+}
+.bi-twitter:hover {
+  color:#00acee ;
+}
+.bi-youtube:hover {
+  color:#c4302b ;
+}
+.bi-instagram:hover {
+  color:#8f0606 ;
 }
 .logo {
   width: 50px;
@@ -79,34 +92,15 @@ main {
 .aside-card:hover{
   background-size: 120%;
 }
-.aside.bg-dark{
- 
-}
 footer {
   grid-area: footer;
 }
-.socials-icons {
-  color: black;
-}
-.bi-facebook:hover {
-  color:#3b5998 ;
-}
-.bi-twitter:hover {
-  color:#00acee ;
-}
-.bi-youtube:hover {
-  color:#c4302b ;
-}
-.bi-instagram:hover {
-  color:#8f0606 ;
-}
-/* @media screen ≥576px   */
-@media screen and (min-width:576px) {
-
-
-}
 /* @media screen ≥768px   */
 @media screen and (min-width:768px) {
+
+  h1{
+    text-align: left;
+  }
     .wrapper{
     grid-template-rows: 13vh auto auto 10vh;
   } 
