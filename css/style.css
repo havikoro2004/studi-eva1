@@ -5,13 +5,18 @@ body , html , .wrapper {
   height: auto;
   width: 100%;
 }
-h1 {
-  text-align: center;
+h1 , h2 {
+  margin: 2rem 0 2rem 0;
+}
+.carousel-caption{
+  background-color: hsl(0, 0%, 0% ,0.8);
+  border-radius: solid white;
+  border-radius: 0.5rem;
 }
 .wrapper {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 18vh auto 1fr 10vh;
+  grid-template-rows: 18vh auto auto 10vh;
   grid-template-areas: 
   "header"
   "slider"
@@ -23,7 +28,7 @@ h1 {
   height: 55%;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 }
 .blog-header ul {
@@ -35,7 +40,7 @@ h1 {
 }
 .don-btn-m {
   display: block;
-  margin-right: 2.3rem;
+  margin-right: 0.3rem;
 }
 .don-btn {
   display: none;
@@ -43,14 +48,23 @@ h1 {
 .slider {
   grid-area: slider;
   margin-top: 0.5rem;
-
+}
+.jumbotron  {
+  background-image: url("../img/img1.jpg");
+  background-size: cover;
+  color: white;
 }
 main {
-  background-color: bisque;
   grid-area: main;
 }
-section {
-  background-color: rgba(0, 0, 255, 0.568);
+.card {
+  width: 100%;
+}
+.card-body {
+  transition: background-color 0.5s;
+}
+.card-body:hover {
+  background-color: #74767a9a;
 }
 aside {
   background-color: rgb(241, 99, 222);
@@ -76,15 +90,13 @@ footer {
 }
 /* @media screen ≥576px   */
 @media screen and (min-width:576px) {
-    .wrapper{
-    grid-template-rows: 18vh auto 3fr 10vh
-  } 
+
 
 }
 /* @media screen ≥768px   */
 @media screen and (min-width:768px) {
     .wrapper{
-    grid-template-rows: 13vh auto 3fr 10vh;
+    grid-template-rows: 13vh auto auto 10vh;
   } 
   .blog-header{
     display: flex;
