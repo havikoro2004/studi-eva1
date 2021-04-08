@@ -64,7 +64,7 @@ h1{
   margin-top: 0.5rem;
 }
 .jumbotron  {
-  background-image: url("../img/img1.jpg");
+  background-image: url("../img/bg-jumbotron.jpg");
   background-size: cover;
   color: white;
   border-radius: 0;
@@ -89,7 +89,7 @@ main {
 }
 .aside-card {
   height: auto;
-  background-image: url("../img/aside-bg.png");
+  background-image: url("../img/aside-bg-music.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
