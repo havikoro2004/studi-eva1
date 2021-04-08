@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LOISIRS 4 TOUS : Sport | Culture</title>
-  <meta name="description" content="Association francaise organise et offre des activités sportives & culturelles aux jeunes de 7 à 20 ans ">
+  <meta name="description" content="Contactez l'association loisirs 4 tous pour plus d'information (inscription , bénévolat ou autre ...) ">
   <!----------------------- Bootstrap CSS ------------------------------->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <!----------------------- Custom CSS ---------------------------------->
@@ -100,88 +100,57 @@
           </div>
         </nav>
     </header>
-    <!----------------------------------- Slider (jumbotron)----------------------------------------->
-    <div class="slider">
-      <div class="jumbotron mb-0">
-        <div class="container">
-          <h1>Bienvenue chez Loisirs 4 Tous</h1>
-          <p> <em>Association</em> propose aux jeunes entre 7 et 20 ans des activités culturelles ou sportives ainsi que des 
-            sorties et événements à thèmes. <br> On vous accompagne pour une carière pas comme les autres, contactez nous pour tout renseignement. </p>
-            <p>On vous laisse découvrir notre site web pour voir les détails des atctivités , et vous pouvez aussi nous contacter en allant sur la page <a class="text-white" href="contact.html">CONTACT</a></p>
-          <p><a class="btn btn-light btn-lg" href="#" role="button">Lire plus &raquo;</a></p>
-        </div>
-      </div>
-    </div>
     <!------------------------------------------ Main  ----------------------------------------------->
-    <main class="row row-cols-1 row-cols-lg-2 no-gutters">
-      <div class="pl-3"><h2>Découvrir nos activités</h2></div>
+    <main class="row row-cols-1 row-cols-lg-2 no-gutters mt-4">
+      <div class="pl-3"><h1>Contactez-nous</h1></div>
       <section class="col-12 col-lg-9 px-3"><!----------------section--------------->
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+        <div class="row row-cols-1 row-cols-lg-2">
           <div class="col mb-4">
-            <div class="card">
-            <img src="img/img-animation.jpg" class="card-img-top" alt="animation & jeux">
-              <div class="card-body">
-                <h5 class="card-title">Jeux & Animation</h5>
-                <p class="card-text">Animation & jeux tous les jours avec nos animateurs expérimentés qui veillent sur l'oganisation et la sécurité ...
-                </p>
-                <a href="#" class="btn btn-dark">Voir les activitées</a>
+            <form>
+              <div class="form-group">
+                <label for="name">Nom</label>
+                <input name="name" type="text" class="form-control" id="name">
               </div>
-            </div>
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input name="email" type="email" class="form-control" id="email" aria-describedby="emailHelp">
+              </div>
+              <div class="form-group">
+                <label for="sujet">Sujet</label>
+                <input name="sujet" type="text" class="form-control" id="sujet">
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea name="message" type="text" class="form-control" id="message"></textarea>
+              </div>
+              <button id="submit" type="submit" class="btn btn-primary">Envoyer</button>
+            </form>
           </div>
-          <div class="col mb-4">
-            <div class="card">
-              <img src="img/img-musique-chant.jpg" class="card-img-top" alt="Musique et Chant">
-              <div class="card-body">
-                <h5 class="card-title">Musique & Chant</h5>
-                <p class="card-text">Ateliers chant et musique de tous les styles avec des animateurs professionnels dans le domaine …
-                </p>
-                <a href="#" class="btn btn-dark">Voir les activitées</a>
-              </div>
-            </div>
-          </div>
-          <div class="col mb-4">
-            <div class="card">
-              <img src="img/img-danse.jpg" class="card-img-top" alt="Danse classique et Urbaine">
-              <div class="card-body">
-                <h5 class="card-title">Danse Urbaine & Classique</h5>
-                <p class="card-text">Apprendre les bases de la danse urbaine ou classique ainsi que l'organisation des spectacles...
-                </p>
-                <a href="#" class="btn btn-dark">Voir les activitées</a>
-              </div>
-            </div>
-          </div>
-          <div class="col mb-4">
-            <div class="card">
-              <img src="img/img-voyage.jpg" class="card-img-top" alt="Voyage et Sorties">
-              <div class="card-body">
-                <h5 class="card-title">Sorties & Voyages Organisés</h5>
-                <p class="card-text">L'association organise régulièrement des sorties ou même des voyages à l'extérieur du territoire français...
-                </p>
-                <a href="#" class="btn btn-dark">Voir les activitées</a>
-              </div>
-            </div>
-          </div>
-          <div class="col mb-4">
-            <div class="card">
-              <img src="img/img-theatre.jpg" class="card-img-top" alt="Theatre">
-              <div class="card-body">
-                <h5 class="card-title">Theatre</h5>
-                <p class="card-text">Donner la chance à nos futurs talent dans le domaine du theatre, avec des casting à la fin de l'année...
-                </p>
-                <a href="#" class="btn btn-dark">Voir les activitées</a>
-              </div>
-            </div>
-          </div>
-          <div class="col mb-4">
-            <div class="card">
-              <img src="img/img-sport.jpg" class="card-img-top" alt="Sport">
-              <div class="card-body">
-                <h5 class="card-title">Sport</h5>
-                <p class="card-text">Activités sportives divers et accompagnement des jeunes talents pour faire leurs carrière...
-                </p>
-                <a href="#" class="btn btn-dark">Voir les activitées</a>
-              </div>
-            </div>
+          <div class="col  bg-light">
+            <h2>Adresse</h2>
+            <ul class="list-unstyled">
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill"
+                  viewBox="0 0 16 16">
+                  <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                </svg> Association loisirs 4 tous 6 avenue des 4 cantons 76000 Rouen
+              </li>
+              <li>
+        
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill"
+                  viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                </svg> <a href="tel:0659002422">0659002422</a> ou <a href="tel:0689506622">0689506622</a>
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
+                </svg> <a href="mailto:loisir4tous@gamil.com"></a>contact@loisir4tous.com</a>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
