@@ -6,3 +6,4 @@
   * jQuery 3.6.0.
   
 * Il n'y a rien à télécharger tout est inclut pour le fonctionnement du site.
+* Le site contient 3 pages actives : Accueil / Event / Contact .
