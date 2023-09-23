@@ -1,6 +1,6 @@
 # www.loisirs4tous.org
 ### Informations sur le site :
-* Le nom du site du projet est "www.loisirs4tous.org" mais il est hebergé actualement sous le nom "www.debuter2zero.fr"
+* Le nom du site du projet est "www.loisirs4tous.org" mais il est hebergé actualement sous le nom "studi1.flata-tech.com/"
 * Le répertoire racine du site inclut :
   * bootstrap-4.5.3 avec ses fichiers CSS & Js.
   * jQuery 3.6.0.

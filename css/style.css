@@ -18,7 +18,7 @@ h5 {
 .wrapper {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 18vh auto auto 10vh;
+  grid-template-rows: 18vh auto  5vh;
   grid-template-areas: 
   "header"
   "slider"
