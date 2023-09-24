@@ -26,7 +26,7 @@ h5 {
   ;
 }
 .blog-header{
-  height: 55%;
+  height: 8vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -63,7 +63,7 @@ h5 {
 }
 .slider {
   grid-area: slider;
-  margin-top: 0.5rem;
+ 
 }
 .jumbotron  {
   background-image: url("../img/bg-jumbotron.jpg");
@@ -103,6 +103,9 @@ main {
 }
 footer {
   grid-area: footer;
+}
+.footer-parag{
+  line-height: 4rem;
 }
 /* Responsive embed Youtube */
 .video-container {
